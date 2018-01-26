@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9.0.1" fx:controller="hsms.Gift_ShopController">
+   <children>
+      <Label layoutX="384.0" layoutY="72.0" text="Rooms" />
+      <Label layoutX="463.0" layoutY="72.0" text="Bar" />
+      <Label layoutX="516.0" layoutY="71.0" text="Gift Shop" />
+      <Label layoutX="600.0" layoutY="72.0" text="Restaurant" />
+      <Label layoutX="694.0" layoutY="72.0" text="Reports" />
+      <Button fx:id="LogOut" layoutX="1031.0" layoutY="59.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="190.0" style="-fx-background-color: #15c520;" text="LogOut" textFill="#f8f8f8">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="446.0" layoutY="177.0" stroke="BLACK" strokeType="INSIDE" width="934.0" />
+      <Text fill="WHITE" layoutX="772.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gift Shop">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Text>
+      <Button fx:id="LogOut1" layoutX="160.0" layoutY="360.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="108.0" style="-fx-background-color: #15c520;" text="New" textFill="#f8f8f8">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="479.0" layoutY="252.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Elephant" />
+      <Label layoutX="480.0" layoutY="218.0" text="Handcrafts (Statues)" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="477.0" layoutY="284.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Lion" />
+      <Button layoutX="478.0" layoutY="320.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Giraffe" />
+      <Label layoutX="770.0" layoutY="220.0" prefHeight="25.0" prefWidth="118.0" text="Travel Items" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="478.0" layoutY="357.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Buffalo" />
+      <Button layoutX="476.0" layoutY="431.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Printed Shawl">
+         <font>
+            <Font size="11.5" />
+         </font>
+      </Button>
+      <Button layoutX="605.0" layoutY="252.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Rhino" />
+      <Button layoutX="606.0" layoutY="285.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Bird" />
+      <Button layoutX="606.0" layoutY="320.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Crocodile" />
+      <Button layoutX="606.0" layoutY="357.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Gazelles" />
+      <Button layoutX="604.0" layoutY="431.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Printed Bags" />
+      <Button layoutX="764.0" layoutY="252.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Candles" />
+      <Button layoutX="765.0" layoutY="286.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Printed Mugs" />
+      <Button layoutX="765.0" layoutY="321.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Stickerss" />
+      <Button layoutX="765.0" layoutY="358.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Veg Pizza" />
+      <Button layoutX="763.0" layoutY="430.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Fish" />
+      <Button layoutX="887.0" layoutY="251.0" mnemonicParsing="false" prefWidth="114.0" text="Burgers( V &amp; NV)" />
+      <Button layoutX="888.0" layoutY="285.0" mnemonicParsing="false" prefWidth="114.0" text="Quiche ( V &amp; NV)" />
+      <Button layoutX="888.0" layoutY="320.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Garlic Bread" />
+      <Button layoutX="888.0" layoutY="357.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Veg Pilau" />
+      <Button layoutX="886.0" layoutY="431.0" mnemonicParsing="false" prefWidth="114.0" text="Fresh Salad and Dips">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Label layoutX="310.0" layoutY="72.0" text="FrontDesk" />
+      <Button layoutX="1009.0" layoutY="251.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Ugali" />
+      <Button layoutX="1009.0" layoutY="287.0" mnemonicParsing="false" prefWidth="114.0" text="Sukuma " />
+      <Button layoutX="1009.0" layoutY="322.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Githeri" />
+      <Button layoutX="1009.0" layoutY="359.0" mnemonicParsing="false" prefWidth="114.0" text="Veg Pasta" />
+      <Button layoutX="1009.0" layoutY="433.0" mnemonicParsing="false" prefWidth="114.0" text="Panner Curry" />
+      <Button layoutX="1009.0" layoutY="501.0" mnemonicParsing="false" prefWidth="114.0" text="Fried Noodles" />
+      <Button layoutX="1269.0" layoutY="356.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Jalebi" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="462.0" layoutY="543.0" stroke="BLACK" strokeType="INSIDE" width="927.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="64.0" layoutX="462.0" layoutY="573.0" stroke="BLACK" strokeType="INSIDE" width="927.0" />
+      <Label layoutX="471.0" layoutY="543.0" text="Customer ID" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="595.0" layoutY="543.0" text="Payment Type" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="878.0" layoutY="542.0" text="Room Number" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="1069.0" layoutY="542.0" text="Date" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="1213.0" layoutY="542.0" text="Time" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="753.0" layoutY="543.0" text="Amount" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="LogOut12" layoutX="162.0" layoutY="518.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="108.0" style="-fx-background-color: #15c520;" text="Print" textFill="#f8f8f8">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="LogOut11" layoutX="767.0" layoutY="649.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="173.0" style="-fx-background-color: #15c520;" text="Generate Order" textFill="#f8f8f8">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="477.0" layoutY="462.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Hats" />
+      <Button layoutX="477.0" layoutY="498.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Bracelets" />
+      <Button layoutX="604.0" layoutY="462.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Printed Cups" />
+      <Button layoutX="605.0" layoutY="498.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Earings" />
+      <Button layoutX="764.0" layoutY="463.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Chicken" />
+      <Button layoutX="762.0" layoutY="499.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Steak or Pork" />
+      <Button layoutX="886.0" layoutY="463.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Masala Chips" />
+      <Button layoutX="886.0" layoutY="499.0" mnemonicParsing="false" prefWidth="114.0" text="Sandwich ( V &amp; NV)">
+         <font>
+            <Font size="11.5" />
+         </font>
+      </Button>
+      <Button layoutX="1009.0" layoutY="466.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="114.0" text="Mukimo" />
+      <Button layoutX="1271.0" layoutY="498.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Mandazi" />
+      <ImageView fitHeight="254.0" fitWidth="275.0" layoutX="37.0" layoutY="-26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Gift_Shop/src/gift_shop/logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="1142.0" layoutY="218.0" prefHeight="25.0" prefWidth="290.0" text="Newspapers, Books and Postcards" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" layoutX="20.0" layoutY="177.0" stroke="BLACK" strokeType="INSIDE" width="415.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="64.0" layoutX="20.0" layoutY="207.0" stroke="BLACK" strokeType="INSIDE" width="414.0" />
+      <Label layoutX="43.0" layoutY="180.0" prefWidth="108.0" text="Food ID" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="180.0" prefWidth="108.0" text="Quantity" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="336.0" layoutY="180.0" prefWidth="108.0" text="Amount" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="1266.0" layoutY="251.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Tiramisu" />
+      <Button layoutX="1268.0" layoutY="288.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Jelly" />
+      <Button layoutX="1154.0" layoutY="354.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Kulfi" />
+      <Button layoutX="1153.0" layoutY="428.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Apple Pie" />
+      <Button layoutX="1155.0" layoutY="462.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Donut" />
+      <Button layoutX="1153.0" layoutY="498.0" mnemonicParsing="false" prefWidth="100.0" text="Cheese Cake" />
+      <Button layoutX="1152.0" layoutY="251.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Baguette" />
+      <Button layoutX="1152.0" layoutY="288.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Cracker" />
+      <Button layoutX="1269.0" layoutY="429.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Jam Tarts" />
+      <Button layoutX="1271.0" layoutY="463.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Eclairs" />
+      <Label layoutX="478.0" layoutY="392.0" text="Fashion Items" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="1153.0" layoutY="321.0" text="Smokers Requisites" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="1158.0" layoutY="392.0" text="Toiletries" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="766.0" layoutY="394.0" text="Confectionery" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
