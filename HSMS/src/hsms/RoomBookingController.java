@@ -14,7 +14,7 @@ import javafx.fxml.Initializable;
  *
  * @author Deepali
  */
-public class Gift_ShopController implements Initializable {
+public class RoomBookingController implements Initializable {
 
     /**
      * Initializes the controller class.

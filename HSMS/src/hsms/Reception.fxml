@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="receptionPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hsms.ReceptionController">
+   <children>
+      <AnchorPane layoutX="-56.0" layoutY="11.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="697.0" prefWidth="1921.0">
+         <children>
+            <ImageView fitHeight="696.0" fitWidth="1250.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pictures/Hotel.jpg" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="699.0" layoutX="1035.0" layoutY="-4.0" opacity="0.34" stroke="BLACK" strokeType="INSIDE" width="435.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#9ff6fc" />
+                        <Stop color="#9f9592" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <ImageView fitHeight="294.0" fitWidth="311.0" layoutX="1083.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Pictures/DesignEvo-Transparent.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="248.0" layoutY="33.0" text="Reception" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="57.0" />
+               </font>
+            </Label>
+            <Button fx:id="Room_Management" layoutX="537.0" layoutY="177.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="197.0" text="Room Management" />
+            <Button fx:id="Guest_Management" layoutX="97.0" layoutY="312.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="197.0" text="Guest Management" />
+            <Button fx:id="Availability" layoutX="545.0" layoutY="310.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="197.0" text="Availability" />
+            <Button fx:id="Main_Menu" layoutX="330.0" layoutY="456.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="197.0" text="Main Menu" />
+            <Button fx:id="RoomBooking" layoutX="89.0" layoutY="190.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="207.0" text="Room Booking" />
+            <Button fx:id="Logout_Reception" layoutX="1149.0" layoutY="262.0" mnemonicParsing="false" prefHeight="60.0" prefWidth="162.0" style="-fx-background-color: #21f841;" text="LogOut" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font>
+               <effect>
+                  <Blend />
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
